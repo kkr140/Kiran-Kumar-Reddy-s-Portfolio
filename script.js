@@ -121,7 +121,7 @@ form.addEventListener("submit", async function (e) {
 
 // Typing effect for hero text (optional enhancement)
 const heroSubtitle = document.querySelector('.hero-subtitle');
-const titles = ['Video Editor', 'Motion Designer'];
+const titles = ['Video Editor', 'Motion Graphic Designer'];
 let titleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
