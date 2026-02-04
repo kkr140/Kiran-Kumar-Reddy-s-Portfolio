@@ -95,8 +95,8 @@ form.addEventListener("submit", async function (e) {
         // Send email using EmailJS
         // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual IDs
         const response = await emailjs.send(
-            'Kiran@33054',      // Your Service ID
-            'Kiran@33054',     // Your Template ID
+            'service_q7hpwte',      // Your Service ID
+            'template_lhnzkpe',     // Your Template ID
             templateParams
         );
 
