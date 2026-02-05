@@ -517,14 +517,13 @@ section {
     height: 100%;
     background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
     border-radius: 4px;
-    transition: width 1s ease-in-out;
-    width: 0 !important;
+    width: 0;
     animation: fillBar 1.5s ease-out 0.5s forwards;
 }
 
 @keyframes fillBar {
     to {
-        width: var(--bar-width) !important;
+        width: var(--bar-width);
     }
 }
 
